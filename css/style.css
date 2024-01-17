@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main__container {
+    background-image: url(../images/home/desktop/image-hero-coffeepress.jpg);
+    background-repeat: no-repeat;
+    background-size: 1340px;
+    padding-left: 50px;
+    max-width: 1280px;
+    width: 100%;
+}
+.main__content {
+    width: 493px;
+    padding-left: 86px;
+}
+.main__content-h2 {
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+    margin-bottom: 32px;
+    padding-top: 50px;
+}
+.main__content-p {
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+.main__content-bt {
+    border-radius: 6px;
+    background: #0E8784;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+    width: 217px;
+    padding: 15px 31px;
+    border: none;
+    margin-bottom: 141px;
+}

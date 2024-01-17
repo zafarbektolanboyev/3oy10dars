@@ -1,8 +1,31 @@
-.container{
-    width: 100%;
-    max-width: 1340px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
+.main__container{
+    background-image: url(../images/plan/desktop/image-hero-blackcup.jpg);
+    background-size:1280px;
+    background-size:1280px;
+    padding-left: 86px;
+    padding-right: 86px;
+}
+.main__content {
+    width: 493px;
+    padding-left: 86px;
+}
+.main__content-h2{
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+    padding-top: 137px;
+    padding-bottom: 24px;
+}
+.main__content-p{
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    padding-bottom: 137px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 445px;
 }
