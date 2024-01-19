@@ -4,8 +4,10 @@
     box-sizing:border-box;
 }
 .about__main__container{
-    background-image: url(../images/about/desktop/image-hero-whitecup.jpg);
-    background-size:1280px;
+    padding: 117px 85px;
+    background-image: url("../images/about/desktop/image-hero-whitecup.jpg");
+    border-radius: 10px;
+    background-size: cover;
 }
 .about__main__content {
     width: 493px;
@@ -41,6 +43,7 @@
 .section1__img{
     width: 600px;
     height: 550px;
+    border-radius: 10px;
     flex-shrink: 0;
     padding-left: 86px;
 }
@@ -79,6 +82,7 @@ section1__content-p{
     display: flex;
     justify-content: space-between;
     margin-top: 240px;
+    border-radius: 10px;
 }
 .quality__content{
     display: flex;

@@ -1,15 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .main__container {
-    background-image: url(../images/home/desktop/image-hero-coffeepress.jpg);
-    background-repeat: no-repeat;
-    background-size: 1340px;
-    padding-left: 50px;
-    max-width: 1280px;
-    width: 100%;
+    padding: 117px 85px;
+    background-image: url("../images/home/desktop/image-hero-coffeepress.jpg");
+    border-radius: 10px;
+    background-size: cover;
 }
 .main__content {
     width: 493px;

@@ -1,9 +1,8 @@
 .main__container{
-    background-image: url(../images/plan/desktop/image-hero-blackcup.jpg);
-    background-size:1280px;
-    background-size:1280px;
-    padding-left: 86px;
-    padding-right: 86px;
+    padding: 117px 85px;
+    background-image: url("../images/plan/desktop/image-hero-blackcup.jpg");
+    border-radius: 10px;
+    background-size: cover;
 }
 .main__content {
     width: 493px;
