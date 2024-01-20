@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box
 }
+/* main */
 .main__container {
     padding: 117px 85px;
     background-image: url("../images/home/desktop/image-hero-coffeepress.jpg");
@@ -47,4 +48,211 @@
     padding: 15px 31px;
     border: none;
     margin-bottom: 141px;
+}
+/* collection */
+.collection {
+    margin-top: 200px;
+    justify-content: center;
+    margin-bottom: 188px;
+}
+.collection__container {
+    margin-left: 100px;
+}
+.collection__cards {
+    display: flex;
+    gap: 30px;
+    padding-left: 86px;
+}
+.collection__block {
+    width: 255px;
+}
+.collection__block__img{
+    margin-bottom: 71px;
+    width: 255px;
+    height: 193px;
+    flex-shrink: 0;
+}
+.collection__block__content {
+    text-align: center;
+}
+.collection__block__content__h5 {
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 24px;
+}
+.collection__block__content__description {
+    color: #333D4B;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 255px;
+}
+/* choose */
+.choose {
+    margin-bottom: 200px;
+}
+.choose__container {
+    background-color: #333D4B;
+    border-radius: 10px;
+    justify-content: center;
+}
+.choose__content {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    margin-left: 370px;
+    align-items: center;
+    gap: 32px;
+}
+.choose__content__title {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+    margin-top: 110px;
+}
+.choose__content__description {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+    width: 540px;
+    margin-bottom: 86px;
+}
+.choose__cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.choose__cards__block {
+    border-radius: 8px;
+    background: #0E8784;
+    width: 350px;
+    flex-shrink: 0;
+    margin-bottom: -145px;
+}
+.choose__cards__block__img {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-left: 135px;
+    margin-top: 72px;
+}
+.choose__cards__block__title {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+    width: 255px;
+    margin-top: 56px;
+    margin-left: 47px;
+}
+.choose__cards__block__description {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    margin-top: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 255px;
+    margin-left: 47px;
+    margin-bottom: 48px;
+}
+/* work*/
+.hiw {
+    margin-top: 200px;
+    margin-left: 155px;
+}
+.hiw__container {
+    display: flex;
+    width: 1045px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+.container {
+}
+.hiw__title {
+    color: #83888F;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+    width: 255px;
+}
+.hiw__cards {
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+.hiw__cards__block {
+    width: 285px;
+    flex-shrink: 0;
+}
+.hiw__cards__block__title__h1 {
+    color: #FDD6BA;
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+    margin-bottom: 38px;
+}
+.hiw__cards__block__tile__h2 {
+    color: #333D4B;
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    width: 255px;
+    margin-bottom: 42px;
+}
+.hiw__cards__block__title__description {
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 285px;
+}
+.hiw__btn{
+    border-radius: 6px;
+    background: #0E8784;
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+    padding: 15px 31px;
+    border: none;
+    margin-bottom: 200px;
 }

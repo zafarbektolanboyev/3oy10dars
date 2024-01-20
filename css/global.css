@@ -148,7 +148,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1280px;
+    width: 1340px;
     height: 120px;
     flex-shrink: 0;
 }
@@ -179,4 +179,34 @@ main{
 .footer__socials-item {
 }
 .footer__socials-link {
+}
+/* work */
+/* .hiw__ring-wrapper{
+    background-color: antiquewhite;
+    height: 1px;
+    justify-content: space-between;
+    align-items: center;
+    width: 760px;
+    display:flex;
+    margin-left: 86px;
+}
+.hiw__ring{
+    height: 31px;
+    width: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+} */
+.hiw__ring-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 1px;
+    align-items: center;
+    width: 760px;
+    background-color: #FDD6BA;
+}
+.hiw__ring{
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0e8784;
 }

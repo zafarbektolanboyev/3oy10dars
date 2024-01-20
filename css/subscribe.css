@@ -1,30 +1,104 @@
-.main__container{
-    padding: 117px 85px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+}
+.main__container {
     background-image: url("../images/plan/desktop/image-hero-blackcup.jpg");
+    background-size:cover;
     border-radius: 10px;
-    background-size: cover;
+}
+.container {
 }
 .main__content {
-    width: 493px;
+    padding-top: 150px;
     padding-left: 86px;
+    padding-bottom:125px;
+    margin-bottom: 100px;
 }
-.main__content-h2{
+.main__content-h2 {
     color: #FEFCF7;
-    font-family: Fraunces 9pt;
-    font-size: 40px;
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
     font-style: normal;
+    margin-bottom: 32px;
     font-weight: 900;
-    line-height: 48px; /* 120% */
-    padding-top: 137px;
-    padding-bottom: 24px;
+    line-height: 72px; /* 100% */
 }
-.main__content-p{
+.main__content-p {
     color: #FEFCF7;
     font-family: Barlow;
     font-size: 16px;
-    padding-bottom: 137px;
+    width: 445px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
-    width: 445px;
+    opacity: 0.8;
+}
+
+/* work */
+.hiw {
+}
+.hiw__container {
+    background-color: #333D4B;
+    width: 1280px;
+    border-radius: 10px;
+    justify-content: center;
+    padding-bottom: 128px;
+    margin-bottom: 100px;
+}
+.container {
+}
+.hiw__cards {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    padding-top: 210px;
+}
+.hiw__cards__block {
+}
+.hiw__cards__block__title__h1 {
+    color: #FDD6BA;
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+    margin-bottom: 38px;
+}
+.hiw__cards__block__tile__h2 {
+    color: #FEFCF7;
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    font-style: normal;
+    width: 255px;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    margin-bottom: 43px;
+}
+.hiw__cards__block__title__description {
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 285px;
+}
+.hiw__ring-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 1px;
+    align-items: center;
+    width: 760px;
+    background-color: #FDD6BA;
+    margin-left: 90px;
+}
+.hiw__ring{
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0e8784;
 }
